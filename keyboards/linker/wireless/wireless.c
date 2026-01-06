@@ -4,7 +4,7 @@
 
 #include "quantum.h"
 #include "wireless.h"
-
+bool im_test_rate_flag = false;
 #ifndef WLS_INQUIRY_BAT_TIME
 #    define WLS_INQUIRY_BAT_TIME 3000
 #endif
